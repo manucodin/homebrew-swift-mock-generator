@@ -7,8 +7,8 @@
 class SwiftMockGenerator < Formula
   desc "Generate Swift mocks from annotated source code"
   homepage "https://github.com/manucodin/SwiftMockGenerator"
-  url "https://github.com/manucodin/SwiftMockGenerator/archive/refs/tags/v0.5.4.tar.gz"
-  sha256 "d372dc66ff0c17e94f92ba948f62239d38406b72ffda4e2825ad132bdee4959e"
+  url "https://github.com/manucodin/SwiftMockGenerator/archive/refs/tags/v0.5.5.tar.gz"
+  sha256 "5f6e72d15637a5b5cf1aa2192ba07d0a9f69e55a6dc08f2d35d0c3fbb0588cdc"
   license "MIT"
 
   depends_on :macos => :monterey
