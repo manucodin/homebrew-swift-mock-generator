@@ -7,12 +7,12 @@
 class SwiftMockGenerator < Formula
   desc "Generate Swift mocks from annotated source code"
   homepage "https://github.com/manucodin/SwiftMockGenerator"
-  url "https://github.com/manucodin/SwiftMockGenerator/archive/refs/tags/v0.5.3.tar.gz"
-  sha256 "5d17f4bc933938b0205fbdc8e395e69669f9576e24cf69a12153bda349d80d77"
+  url "https://github.com/manucodin/SwiftMockGenerator/archive/refs/tags/v0.5.4.tar.gz"
+  sha256 "d372dc66ff0c17e94f92ba948f62239d38406b72ffda4e2825ad132bdee4959e"
   license "MIT"
 
-  depends_on macos: :monterey
-  depends_on xcode: ["15.0", :build]
+  depends_on :macos => :monterey
+  depends_on :xcode => ["15.0", :build]
 
   def install
     system "swift", "build", "-c", "release", "--disable-sandbox"
