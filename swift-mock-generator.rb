@@ -11,7 +11,7 @@ class SwiftMockGenerator < Formula
   sha256 "5d17f4bc933938b0205fbdc8e395e69669f9576e24cf69a12153bda349d80d77"
   license "MIT"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
   depends_on xcode: ["15.0", :build]
 
   def install
